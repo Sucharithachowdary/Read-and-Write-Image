@@ -19,35 +19,61 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+### Developed By:K.Sucharitha
+### Register Number: 21
 i) #To Read,display the image
 ```
   import cv2
+A=cv2.imread("uni.jpg",1)
+cv2.imshow("212221240021",A)
+cv2.waitKey(0)
 
 ```
 ii) #To write the image
 ```
-
+import cv2
+A=cv2.imread("uni.jpg",1)
+cv2.imwrite("uni.jpg",A)
+cv2.imshow("212221240021",A)
+cv2.waitKey(0)
 
 
 ```
 iii) #Find the shape of the Image
 ``python3
-
+import random
+import cv2
+A=cv2.imread("uni.jpg",1)
+for i in range(100):
+    for j in range(A.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221240021",A)
+cv2.waitKey(0)
 
 
 ```
 iv) #To access rows and columns
 ```python3
-
+import random
+import cv2
+A=cv2.imread("uni.jpg",1)
+for i in range(100):
+    for j in range(A.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221240021",A)
+cv2.waitKey(0)
 
 
 ```
 v) #To cut and paste portion of image
 ```python3
 
-
+import cv2
+A=cv2.imread("uni.jpg",1)
+tag=A[140:240,165:180]
+A[25:125,50:65]=tag
+cv2.imshow("212221240021",A)
+cv2.waitKey(0)
 
 ```
 
@@ -55,27 +81,20 @@ v) #To cut and paste portion of image
 
 ### i) Read and display the image
 
-<br>
-<br>
-
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/ot%201%20.jpg?raw=true)
 ### ii)Write the image
 
-<br>
-<br>
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%202.jpg?raw=true)
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%203.jpg?raw=true)
 
 ### iv)Access rows and columns
-<br>
-<br>
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%204.jpg?raw=true)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
-
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%205.jpg?raw=true)
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
 
