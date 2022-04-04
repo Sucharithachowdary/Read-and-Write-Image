@@ -88,7 +88,7 @@ cv2.waitKey(0)
 
 ### iii)Shape of the Image
 
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%203.jpg?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/su3.JPG?raw=true)
 
 ### iv)Access rows and columns
 ![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%204.jpg?raw=true)
