@@ -41,14 +41,9 @@ cv2.waitKey(0)
 ```
 iii) #Find the shape of the Image
 ``python3
-import random
 import cv2
-A=cv2.imread("uni.jpg",1)
-for i in range(100):
-    for j in range(A.shape[1]):
-        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow("212221240021",A)
-cv2.waitKey(0)
+colorImage = cv2.imread('uni.png',1)
+print(colorImage.shape)
 
 
 ```
