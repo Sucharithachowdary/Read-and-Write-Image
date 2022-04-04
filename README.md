@@ -76,20 +76,20 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/ot%201%20.jpg?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/di1.JPG?raw=true)
 ### ii)Write the image
 
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%202.jpg?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/di2.JPG?raw=true)
 
 ### iii)Shape of the Image
 
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/su3.JPG?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/di3.JPG?raw=true)
 
 ### iv)Access rows and columns
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%204.jpg?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/di4.JPG?raw=true)
 
 ### v)Cut and paste portion of image
-![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/op%205.jpg?raw=true)
+![output](https://github.com/Sucharithachowdary/Read-and-Write-Image/blob/main/di5.JPG?raw=true)
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
 
